@@ -1,0 +1,8 @@
+*{
+    background-color: #c0c6dd;
+}
+header{
+    padding: 20px;
+    /* A ideia aqui não é alterar o background color, eu só preciso de uma linha abaixo da header separando ela da tela de login.
+    Preciso conversar com alguém que entenda mais pra saber porque a logo não fica como PNG aqui.*/
+}
