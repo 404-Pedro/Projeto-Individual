@@ -1,3 +1,23 @@
 *{
-    background-color: rgb(205, 211, 235);
+    background-color: #c0c6dd;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+    /* A ideia aqui não é alterar o background color, eu só preciso de uma linha abaixo da header separando ela da tela de login.
+    Preciso conversar com alguém que entenda mais pra saber porque a logo não fica como PNG aqui.*/
+}
+
+.logo{
+}
+
+.login{
+    font-size: 80px;
 }
