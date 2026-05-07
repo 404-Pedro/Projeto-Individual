@@ -1,20 +1,41 @@
 *{
-    @import url(https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D); 
     background-color: #a478b6;
-}
-header{
-    display: flexbox;
-    padding: 30px;
-    background-color: aquamarine;
-    
-    
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(5, 25, 80);
 }
 
-h1{
-    
+header{
+    display: flex;
+    padding: 30px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-esq{
+    font-size: 30px;
+}
+
+.header-dir{
+    font-size: 20px;
+}
+
+body{
+    margin: 0%;
+}
+
+input{
+    display: flex;
+    background-color: whitesmoke;
+}
+
 .login{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3px;
+    padding-top: 15%;
 }
