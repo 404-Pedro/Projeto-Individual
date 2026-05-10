@@ -16,10 +16,12 @@ header{
 }
 
 .header-esq{
+    background-color: aquamarine;
     font-size: 30px;
 }
 
 .header-dir{
+    background-color: aquamarine;
     font-size: 20px;
 }
 
